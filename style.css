@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#matrix {
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	position: relative;
+}
+
+.word {
+	color: #03a062;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
